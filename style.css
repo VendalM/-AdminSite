@@ -1,0 +1,302 @@
+/***Подключение шрифтов***/
+
+@font-face {
+    font-family: "Arial Regular";
+    src: url(./fonts/a3arialrusnormal.ttf);
+   }
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(./fonts/MYRIADPRO-REGULAR.OTF);
+   }
+
+/***Общие классы***/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.button {
+	border-radius: 120px;
+	background-color: #c93555;
+	color: #fff;
+	font-family: "Myriad Pro", sans-serif;
+}
+
+/***Секция с хедером и основным блоком***/
+
+.header__main__background {
+	background-image: url(./img/fon.png);
+	background-color: #040440;
+	background-repeat: no-repeat;	
+}
+
+.header__background {
+	background-color: #040440;
+	padding-bottom: 10px;
+}
+
+.header__site_name {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Arial Regular", sans-serif;
+	font-size: 18px;
+	margin: 21px 0 0 94px;
+	letter-spacing: 0.1px;
+	line-height: 1.2;
+}
+
+.header__nav {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 24px;
+	margin: 20px 0 0 294px;
+	letter-spacing: 0.2px;
+} 
+
+.header__nav_title {
+	padding: 0 98px 0 0;
+}
+
+.header__button {
+	height: 75px;
+	width: 256px;
+	margin: 5px 0 0 -31px;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: 400;
+	border: none;
+
+}
+
+.main {
+	padding-bottom: 171px;
+}
+
+.main__title {
+	color: #c93555;
+	margin: 175px 0 0 345px;
+	border-top: 8px solid #c93555;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 24px;
+	width: 120px;
+	padding-top: 9px;
+	letter-spacing: 0.5px;
+}
+
+.main__proffecition {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 4.8px;
+	margin: 45px 0 0 350px;
+}
+
+.main__description {
+	color: #fff;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 24px;
+	margin: 38px 0 0 345px;
+	letter-spacing: 1px;
+}
+
+.main__button {
+	height: 72px;
+	width: 255px;
+	font-size: 24px;
+	margin: 80px 0 0 340px;
+	border: none;
+	letter-spacing: 1.5px;
+}
+
+.main__description_points {
+	color: #fff;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 54px 0 0 315px;;
+}
+
+.main__description_points li {
+	margin: 0 90px 0 0;
+}
+
+.main__description_points_title {
+	color: #dfdee6;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+}
+
+.main__description_points_title_info {
+	color: #fff;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 24px;
+	margin: -12px 0 0 0;
+	letter-spacing: 1px;
+}
+
+/***Секция О сис. админе***/
+
+.administrator__background {
+	background-color: #040440;
+	padding: 0 0 0 -50px;
+}
+
+.administrator {
+	padding-bottom: 6%;
+}
+
+.administrator_img {
+	padding: 9% 0 0 41.5%;
+}
+
+.title__info {
+	color: #fff;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	border-left: 8px solid #c93555;
+	height: 64px;
+	letter-spacing: 2.5px;
+}
+
+.administrator_title {
+	margin: 7.8% 0 0 -1.4%;
+	padding: 0.6% 0 0 1.5%;
+}
+
+.description {
+	color: #fff;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 30px;
+	letter-spacing: 0.5px;
+}
+
+.administrator_description {
+	padding: 3.6% 0 0 0.7%;
+	font-weight: 100;
+	line-height: 1.2;
+}
+
+.administrator_general .administrator_description:nth-child(3) {
+	padding: 2.1% 0 0 1.5%;
+	line-height: 1.21;
+}
+
+/***Секция О курсе***/
+
+.about__course {
+	padding-bottom: 242px;
+}
+
+.about__course__background {
+	background-color: #130b5b;
+	padding: 3.5% 0 0 17.8%;
+}
+
+.about__course_title {
+	padding: 5px 0 0 6px;
+}
+
+.about__course_description_info {
+	margin: 2.4% 0 0 0.5%;
+	letter-spacing: 0.4px;
+	font-weight: 100;
+	line-height: 1.20;
+}
+
+.about__course_diploma {
+	margin: 0.8% 0 0 -0.1%;
+	padding: 14px 0 0 6px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.about__course_description_diploma {
+	margin: 1.34% 0 0 0.32%;
+	letter-spacing: 0.4px;
+	font-weight: 100;
+	line-height: 1.20;
+}
+
+.about__course__button {
+	position: absolute;
+	margin: -145px 0 0 645px;
+	height: 155px;
+	width: 535px;
+	border-radius: 28px;
+	border: 2px  dashed black;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	line-height: 0.9;
+}
+
+/***Секция Футер***/
+
+.footer__background {
+	background-color: #080742;	
+	padding-bottom: 20px;
+}
+.footer__social li {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #c93555;
+	size: 20px;
+}
+
+.footer_info, .footer__social_info {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer__social_info {
+	padding: 65px 0 0 30px;
+}
+
+.footer__social_info a {
+	padding: 0 0 0 18px;
+}
+
+.footer__social_img {
+	width: 35px;
+	height: 35px;
+}
+
+.footer_adres, .footer__mail, .footer__phone {
+	color: #fff;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 25px;
+	margin: 45px auto;
+	line-height: 1.3;
+}
+
+.footer_adres {
+	margin-left: 125px;
+}
+
+.footer__mail {
+	margin: 50px 0 0 10px;
+}
+
+.footer__phone {
+	margin: 50px 20px 0 200px;
+}

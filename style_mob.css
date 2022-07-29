@@ -1,0 +1,1003 @@
+@media screen and (max-width: 1800px) and (min-width: 1440px) {
+.header__site_name {
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "Arial Regular", sans-serif;
+		font-size: 14px;
+		margin: 15px 0 15px 0;
+		letter-spacing: 1.5px;
+		text-align: center;
+	}
+
+	.header__main__background {
+		background-image: url(./img/fon.png);
+		width: 100vw;
+	}
+
+	.header__nav {
+		font-size: 18px;
+		margin: 20px 0 0 140px;
+		letter-spacing: 0.2px;
+		flex-direction: row;
+	} 
+
+	.header__nav_title {
+		padding: 0 5px 15px 25px;
+	}
+
+	.header__button {
+		height: 60px;
+		width: 150px;
+		margin: 10px 0 0 10px;
+		font-size: 18px;
+		font-weight: 200;
+	}
+
+	.main {
+		padding-bottom: 120px;
+	}
+
+	.main__title {
+		color: #c93555;
+		margin: 14px 0 70px 15px;
+		align-items: center;
+		font-size: 25px;
+		width: 40px;
+	}
+
+	.main__proffecition {
+		font-size: 30px;
+		font-weight: 400;
+		margin: 10px 0 0 10px;
+		text-align: left;
+	}
+
+	.main__description {
+		font-size: 25px;
+		margin-top: 10px;
+		letter-spacing: 1px;
+		margin: 20px 0 60px 10px;
+		text-align: left;
+	}
+
+
+	.main__button {
+		height: 60px;
+		width: 180px;
+		font-size: 22px;
+		margin: 0 0 50px 10px;
+	}
+
+
+	.main__description_points {
+		color: #fff;
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 54px 0 0 5px;;
+	}
+
+	.main__description_points li {
+		margin: 0 90px 0 0;
+	}
+
+	.main__description_points_title {
+		margin: 0 0 5px 0;
+		font-size: 16px;
+	}
+
+	.main__description_points_title_info {
+		font-size: 18px;
+		margin: 0;
+		letter-spacing: 1px;
+	}
+
+	.administrator {
+		padding-bottom: 20px;
+	}
+
+	.title__info {
+		font-size: 20px;
+		height: 64px;
+	}
+
+	.administrator_title {
+		margin: 10px 0 0 5px;
+		padding: 10px 0 0 5px;
+	}
+
+	.description {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 18px;
+		letter-spacing: 0.5px;
+	}
+
+	.administrator_img {
+		padding: 2% 0 0 10%;
+	}
+
+	.administrator_description {
+		padding: 10px 0 0 0;
+	}
+
+	.administrator_general .administrator_description:nth-child(3) {
+    	padding: 0;
+	}
+	
+	.about__course {
+		padding-bottom: 10px;
+	}
+
+	.about__course__background {
+		padding: 0;
+	}
+
+	.about__course_title {
+		margin: 0;
+		padding: 12px 0 0 5px;
+	}
+
+	.about__course_description_info {
+		margin: 2.4% 0 0 5px;
+	}
+
+	.about__course_diploma {
+		margin: 0;
+		padding: 12px 0 0 5px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.about__course_description_diploma {
+		margin: 15px 0 0 0;
+	}
+
+	.about__course__button {
+		position: absolute;
+		margin: -5% 0 0 34%;
+		height: 70px;
+		width: 200px;
+		font-size: 18px;
+	}
+
+	.footer__background {	
+		padding-bottom: 10px;
+	}
+	.footer__social li {
+		size: 14px;
+	}
+
+	.footer_info, .footer__social_info {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.footer__social_info {
+		padding: 15px 0 0 0;
+	}
+
+	.footer__social_info a {
+		padding: 0 0 0 18px;
+	}
+
+	.footer__social_img {
+		width: 35px;
+		height: 35px;
+	}
+
+	.footer_adres, .footer__mail, .footer__phone {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 16px;
+		margin: 10px auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+	.header__site_name {
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "Arial Regular", sans-serif;
+		font-size: 14px;
+		margin: 15px 0 15px 0;
+		letter-spacing: 1.5px;
+		text-align: center;
+	}
+
+	.header__main__background {
+		background-image: url(./img/fon.png);
+		width: 100vw;
+	}
+
+	.header__nav {
+		font-size: 18px;
+		margin: 20px 0 0 140px;
+		letter-spacing: 0.2px;
+		flex-direction: row;
+	} 
+
+	.header__nav_title {
+		padding: 0 5px 15px 25px;
+	}
+
+	.header__button {
+		height: 60px;
+		width: 150px;
+		margin: 10px 0 0 10px;
+		font-size: 18px;
+		font-weight: 200;
+	}
+
+	.main {
+		padding-bottom: 120px;
+	}
+
+	.main__title {
+		color: #c93555;
+		margin: 14px 0 70px 15px;
+		align-items: center;
+		font-size: 22px;
+		width: 40px;
+	}
+
+	.main__proffecition {
+		font-size: 30px;
+		font-weight: 400;
+		margin: 10px 0 0 10px;
+		text-align: left;
+	}
+
+	.main__description {
+		font-size: 22px;
+		margin-top: 10px;
+		letter-spacing: 1px;
+		margin: 20px 0 60px 10px;
+		text-align: left;
+	}
+
+	.main__button {
+		height: 60px;
+		width: 180px;
+		font-size: 20px;
+		margin: 0 0 50px 10px;
+	}
+
+
+	.main__description_points {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px 0 0 0;
+	}
+
+	.main__description_points li {
+		margin: 10px 0 0 0;
+	}
+
+	.main__description_points_title {
+		margin: 0 0 5px 0;
+		font-size: 16px;
+	}
+
+	.main__description_points_title_info {
+		font-size: 18px;
+		margin: 0;
+		letter-spacing: 1px;
+	}
+
+	.administrator {
+		padding-bottom: 20px;
+		background-image: url(./img/about__course_mob.png);
+		background-repeat: no-repeat;
+		background-size: 450px;
+	}
+
+	.administrator_img {
+		display: none;
+	}
+
+	.title__info {
+		font-size: 20px;
+		height: 64px;
+	}
+
+	.administrator_title {
+		margin: 10px 0 0 5px;
+		padding: 10px 0 0 5px;
+	}
+
+	.description {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 18px;
+		letter-spacing: 0.5px;
+	}
+
+	.administrator_description {
+		padding: 10px 0 0 0;
+	}
+
+	.administrator_general {
+		padding-bottom: 60px;
+	}
+
+	.administrator_general .administrator_description:nth-child(3) {
+   		padding: 0;
+	}
+
+	.about__course {
+	padding-bottom: 10px;
+	}
+
+	.about__course__background {
+		padding: 0;
+	}
+
+	.about__course_title {
+		margin: 0;
+		padding: 12px 0 0 5px;
+	}
+
+	.about__course_description_info {
+		margin: 2.4% 0 0 5px;
+	}
+
+	.about__course_diploma {
+		margin: 0;
+		padding: 12px 0 0 5px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.about__course_description_diploma {
+		margin: 15px 0 0 0;
+	}
+
+	.about__course__button {
+		position: static;
+		margin: 15px 0 0 5px;
+		height: 70px;
+		width: 200px;
+		font-size: 18px;
+	}
+
+	.footer__background {	
+		padding-bottom: 10px;
+	}
+	.footer__social li {
+		size: 14px;
+	}
+
+	.footer_info, .footer__social_info {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.footer__social_info {
+		padding: 15px 0 0 0;
+	}
+
+	.footer__social_info a {
+		padding: 0 0 0 18px;
+	}
+
+	.footer__social_img {
+		width: 35px;
+		height: 35px;
+	}
+
+	.footer_adres, .footer__mail, .footer__phone {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 16px;
+		margin: 10px auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+	.header__site_name {
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "Arial Regular", sans-serif;
+		font-size: 14px;
+		margin: 15px 0 15px 0;
+		letter-spacing: 1.5px;
+		text-align: center;
+	}
+
+	.header__main__background {
+		background-image: url(./img/fon_mob.png);
+		width: 100vw;
+	}
+
+	.header__nav {
+		font-size: 16px;
+		margin: 10px auto;
+		letter-spacing: 0.2px;
+		flex-direction: row;
+		justify-content: space-between;
+	} 
+
+	.header__nav_title {
+		padding: 10px 5px 15px 0;
+	}
+
+	.header__button {
+		height: 60px;
+		width: 140px;
+		margin: 10px 0 0 10px;
+		font-size: 18px;
+		font-weight: 200;
+	}
+
+	.main {
+		padding-bottom: 120px;
+	}
+
+	.main__title {
+		color: #c93555;
+		margin: 10px 0 0 15px;
+		align-items: center;
+		font-size: 18px;
+		width: 40px;
+	}
+
+	.main__proffecition {
+		font-size: 22px;
+		font-weight: 400;
+		margin-top: 10px;
+		text-align: center;
+		margin: 10px 0 0 0;
+	}
+
+	.main__description {
+		font-size: 18px;
+		margin-top: 10px;
+		letter-spacing: 1px;
+		margin: 20px 0 20px 0;
+		text-align: center;
+	}
+
+	.main__button {
+		height: 60px;
+		width: 180px;
+		font-size: 20px;
+		margin: 0 0 0 40%;
+	}
+
+	.main__description_points {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px 0 0 0;
+	}
+
+	.main__description_points li {
+		margin: 10px 0 0 0;
+	}
+
+	.main__description_points_title {
+		margin: 0 0 5px 0;
+		font-size: 12px;
+	}
+
+	.main__description_points_title_info {
+		font-size: 14px;
+		margin: 0;
+		letter-spacing: 1px;
+	}
+
+	.administrator {
+		padding-bottom: 20px;
+		background-image: url(./img/about__course_mob.png);
+		background-repeat: no-repeat;
+		background-size: 450px;
+	}
+
+	.administrator_img {
+		display: none;
+	}
+
+	.title__info {
+		font-size: 20px;
+		height: 64px;
+	}
+
+	.administrator_title {
+		margin: 10px 0 0 5px;
+		padding: 10px 0 0 5px;
+	}
+
+	.description {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 18px;
+		letter-spacing: 0.5px;
+	}
+
+	.administrator_description {
+		padding: 10px 0 0 0;
+	}
+
+	.administrator_general .administrator_description:nth-child(3) {
+    	padding: 0;
+	}
+
+	.about__course {
+		padding-bottom: 10px;
+	}
+
+	.about__course__background {
+		padding: 0;
+	}
+
+	.about__course_title {
+		margin: 0;
+		padding: 12px 0 0 5px;
+	}
+
+	.about__course_description_info {
+		margin: 2.4% 0 0 5px;
+	}
+
+	.about__course_diploma {
+		margin: 0;
+		padding: 12px 0 0 5px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.about__course_description_diploma {
+		margin: 15px 0 0 0;
+	}
+
+	.about__course__button {
+		position: static;
+		margin: 15px 0 0 5px;
+		height: 70px;
+		width: 200px;
+		font-size: 18px;
+	}
+
+	.footer__background {	
+		padding-bottom: 10px;
+	}
+	.footer__social li {
+		size: 14px;
+	}
+
+	.footer_info, .footer__social_info {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.footer__social_info {
+		padding: 15px 0 0 0;
+	}
+
+	.footer__social_info a {
+		padding: 0 0 0 18px;
+	}
+
+	.footer__social_img {
+		width: 35px;
+		height: 35px;
+	}
+
+	.footer_adres, .footer__mail, .footer__phone {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 16px;
+		margin: 10px auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+	.header__site_name {
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "Arial Regular", sans-serif;
+		font-size: 11px;
+		margin: 10px 0 10px 0;
+		letter-spacing: 1.5px;
+		text-align: center;
+	}
+
+	.header__main__background {
+		background-image: url(./img/fon_mob.png);
+		width: 100vw;
+	}
+
+	.header__nav {
+		font-size: 12px;
+		margin: 0 0 10px 0;
+		letter-spacing: 0.2px;
+		flex-direction: row;
+		justify-content: space-between;
+	} 
+
+	.header__nav_title {
+		padding: 0 5px 10px 0;
+	}
+
+	.header__button {
+		height: 60px;
+		width: 150px;
+		margin: 0 0 0 40%;
+		font-size: 18px;
+		font-weight: 200;
+	}
+
+	.main {
+		padding-bottom: 60px;
+	}
+
+	.main__title {
+		color: #c93555;
+		margin: 10px 0 0 15px;
+		align-items: center;
+		font-size: 16px;
+		width: 40px;
+	}
+
+	.main__proffecition {
+		font-size: 18px;
+		font-weight: 400;
+		margin-top: 10px;
+		text-align: center;
+		margin: 10px 0 0 0;
+	}
+
+	.main__description {
+		font-size: 16px;
+		margin-top: 10px;
+		letter-spacing: 1px;
+		margin: 20px 0 20px 0;
+		text-align: center;
+	}
+
+	.main__button {
+		height: 60px;
+		width: 180px;
+		font-size: 20px;
+		margin: 0 0 0 38%;
+	}
+
+	.main__description_points {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px 0 0 0;
+	}
+
+	.main__description_points li {
+		margin: 10px 0 0 0;
+	}
+
+	.main__description_points_title {
+		margin: 0 0 5px 0;
+		font-size: 12px;
+	}
+
+	.main__description_points_title_info {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 14px;
+		margin: 0;
+		letter-spacing: 1px;
+	}
+
+	.administrator {
+		padding-bottom: 2%;
+		background-image: url(./img/about__course_mob.png);
+		background-repeat: no-repeat;
+		background-size: 320px;
+	}
+
+	.administrator_img {
+		display: none;
+	}
+
+	.title__info {
+		font-size: 20px;
+		height: 64px;
+	}
+
+	.administrator_title {
+		margin: 6% 0 0 2%;
+		padding: 0.6% 0 0 1.5%;
+	}
+
+	.description {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 18px;
+		letter-spacing: 0.5px;
+	}
+
+	.about__course {
+		padding-bottom: 40px;
+	}
+
+	.about__course__background {
+		padding: 0;
+	}
+
+	.about__course_title {
+		margin: 0;
+		padding: 12px 0 0 5px;
+	}
+
+	.about__course_description_info {
+		margin: 2.4% 0 0 5px;
+	}
+
+	.about__course_diploma {
+		margin: 0;
+		padding: 12px 0 0 5px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.about__course_description_diploma {
+		margin: 2% 0 0 1.5%;
+	}
+
+	.about__course__button {
+		position: static;
+		margin: 15px 0 0 5px;
+		height: 70px;
+		width: 200px;
+		font-size: 18px;
+	}
+
+	.footer__background {	
+		padding-bottom: 10px;
+	}
+	.footer__social li {
+		size: 14px;
+	}
+
+	.footer_info, .footer__social_info {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.footer__social_info {
+		padding: 15px 0 0 0;
+	}
+
+	.footer__social_info a {
+		padding: 0 0 0 18px;
+	}
+
+	.footer__social_img {
+		width: 35px;
+		height: 35px;
+	}
+
+	.footer_adres, .footer__mail, .footer__phone {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 16px;
+		margin: 10px auto;
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 425px) {
+	.header__site_name {
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "Arial Regular", sans-serif;
+		font-size: 11px;
+		margin: 10px 0 10px 0;
+		letter-spacing: 1.5px;
+		text-align: center;
+	}
+
+	.header__main__background {
+		background-image: url(./img/fon_mob.png);
+		width: 100vw;
+	}
+
+	.header__nav {
+		font-size: 12px;
+		margin: 0 0 10px 0;
+		letter-spacing: 0.2px;
+		flex-direction: column;
+		justify-content: space-between;
+	} 
+
+	.header__nav_title {
+		padding: 0 5px 10px 0;
+	}
+
+	.header__button {
+		height: 60px;
+		width: 150px;
+		margin: 0 0 0 20%;
+		font-size: 18px;
+		font-weight: 200;
+	}
+
+	.main {
+		padding-bottom: 60px;
+	}
+
+	.main__title {
+		color: #c93555;
+		margin: 10px 0 0 15px;
+		align-items: center;
+		font-size: 16px;
+		width: 40px;
+	}
+
+	.main__proffecition {
+		font-size: 18px;
+		font-weight: 400;
+		margin-top: 10px;
+		text-align: center;
+		margin: 10px 0 0 0;
+	}
+
+	.main__description {
+		font-size: 16px;
+		margin-top: 10px;
+		letter-spacing: 1px;
+		margin: 20px 0 20px 0;
+		text-align: center;
+	}
+
+	.main__button {
+		height: 60px;
+		width: 180px;
+		font-size: 20px;
+		margin: 0 0 0 15%;
+	}
+
+	.main__description_points {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 5px 0 0 0;
+	}
+
+	.main__description_points li {
+		margin: 10px 0 0 0;
+	}
+
+	.main__description_points_title {
+		margin: 0 0 5px 0;
+		font-size: 12px;
+	}
+
+	.main__description_points_title_info {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 14px;
+		margin: 0;
+		letter-spacing: 1px;
+	}
+
+	.administrator {
+		padding-bottom: 2%;
+		background-image: url(./img/about__course_mob.png);
+		background-repeat: no-repeat;
+		background-size: 320px;
+	}
+
+	.administrator_img {
+		display: none;
+	}
+
+	.title__info {
+		font-size: 20px;
+		height: 64px;
+	}
+
+	.administrator_title {
+		margin: 6% 0 0 2%;
+		padding: 0.6% 0 0 1.5%;
+	}
+
+	.description {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 18px;
+		letter-spacing: 0.5px;
+	}
+
+	.about__course {
+		padding-bottom: 40px;
+	}
+
+	.about__course__background {
+		padding: 0;
+	}
+
+	.about__course_title {
+		margin: 0;
+		padding: 12px 0 0 5px;
+	}
+
+	.about__course_description_info {
+		margin: 2.4% 0 0 5px;
+	}
+
+	.about__course_diploma {
+		margin: 0;
+		padding: 12px 0 0 5px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.about__course_description_diploma {
+		margin: 2% 0 0 1.5%;
+	}
+
+	.about__course__button {
+		position: static;
+		margin: 15px 0 0 5px;
+		height: 70px;
+		width: 200px;
+		font-size: 18px;
+	}
+
+	.footer__background {	
+		padding-bottom: 10px;
+	}
+	.footer__social li {
+		size: 14px;
+	}
+
+	.footer_info, .footer__social_info {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.footer__social_info {
+		padding: 15px 0 0 0;
+	}
+
+	.footer__social_info a {
+		padding: 0 0 0 18px;
+	}
+
+	.footer__social_img {
+		width: 35px;
+		height: 35px;
+	}
+
+	.footer_adres, .footer__mail, .footer__phone {
+		color: #fff;
+		font-family: "Myriad Pro", sans-serif;
+		font-size: 16px;
+		margin: 10px auto;
+		text-align: center;
+	}
+}
